@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background-color: rgb(231, 220, 210);
     /* background-color: aquamarine; */
     height: 100%;
@@ -8,6 +9,11 @@ html, body {
 @font-face {
     font-family: brandName;
     src: url('fonts/Biancha.otf');
+}
+
+@font-face {
+    font-family: tallSkinny;
+    src: url('fonts/AnitypeRedwood2-lwE0.otf');
 }
 
 .navbar-brand {
@@ -30,21 +36,21 @@ h1 {
 }
 
 h1 {
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 1px solid #000; 
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
     line-height: 0.1em;
-    margin: 10px 0 20px; 
- } 
- 
- h1 span { 
-     background-color:rgb(231, 220, 210); 
-     padding:0 10px; 
- }
+    margin: 10px 0 20px;
+}
 
- .home-header {
-    border-bottom: none; 
-    line-height: default; 
+h1 span {
+    background-color: rgb(231, 220, 210);
+    padding: 0 10px;
+}
+
+.home-header {
+    border-bottom: none;
+    line-height: default;
     font-size: 48px;
 }
 
@@ -54,11 +60,13 @@ h1 {
     margin-top: 5%;
 }
 
+
 /* main {
     height: 100%;
 } */
 
 footer {
+    margin-left: 5px;
     bottom: 0
 }
 
@@ -67,18 +75,12 @@ footer {
     margin-top: 15vh;
 }
 
-.home-image {
-    width: 100%;
-    height: calc(100vh - 80px);
-    object-fit: cover;
-}
-
 #home-footer {
-    position: absolute; 
+    position: absolute;
 }
 
 a {
-    color: rgba(0,0,0,.7);
+    color: rgba(0, 0, 0, .7);
 }
 
 a:hover {
@@ -112,10 +114,18 @@ footer {
     justify-content: center;
 }
 
-.side-by-side .words {
-    width: 20%;
-    margin-left: 2%;
-    margin-right: 2%;
+.event {
+    width: 200px;
+    font-family: tallSkinny;
+    font-size: 40px;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .cancer {
@@ -159,7 +169,7 @@ footer {
     /* border: 2px solid red; */
 }
 
-.photos img{
+.photos img {
     object-fit: cover;
 }
 
@@ -189,11 +199,28 @@ footer {
     width: 32%;
 }
 
-.horizontal2 img, .horizontal2 .vertical{
+.horizontal2 img,
+.horizontal2 .vertical {
     width: 49%;
 }
 
-.vertical > img {
+.vertical>img {
     height: 49%;
     width: 100%;
+}
+
+.links {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: tallSkinny;
+    font-size: 40px;
+}
+
+.home-image {
+    width: 100%;
+    height: calc(100vh - 80px);
+    object-fit: cover;
 }
