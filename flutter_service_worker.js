@@ -3,13 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "fc641cde87ad75fefa52a6f573dca793",
-"assets/AssetManifest.bin.json": "1543cb8704345fdc1397b0215125599d",
-"assets/AssetManifest.json": "6a4cf2731657a4e6509a20c88d6a845d",
-"assets/assets/kissing.jpg": "f4b70e63ab1ece30b2b1b85578edb694",
-"assets/assets/lift.jpg": "08da5b3649f8b145b60dbc9eec88e0a9",
+const RESOURCES = {"assets/AssetManifest.bin": "35233d229d78fe9ccbab4728858e4503",
+"assets/AssetManifest.bin.json": "b6bc2336beb683a1e19066fe45f45392",
+"assets/AssetManifest.json": "6afde841bc58dfde41ef38ad016ee2be",
 "assets/assets/ring.jpg": "d8d0b436d3426067419a0d535f45bbce",
-"assets/assets/sitting.jpg": "2230222e4836559fa1fcd38ec11b105b",
 "assets/assets/theme.json": "30d64e67dc3db0946a8c3c1934acb9c0",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
@@ -30,14 +27,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "fc641cde87ad75fefa52a6f573dca793
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "favicon.png": "84e67387c7e9755728eaabf7a605a497",
 "flutter.js": "4b2350e14c6650ba82871f60906437ea",
-"flutter_bootstrap.js": "f287f5a7742ec5dd8d8fef033d04384f",
+"flutter_bootstrap.js": "0e27e6fe7cc927ef19ea25ce83fcbccd",
 "icons/Icon-192.png": "06b82ccd67e6bda9b6e6d7bff1ae911c",
 "icons/Icon-512.png": "460a69d778c6d180e980e328eb68a3f3",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "bf42fd6dbf0ac4ab27a3268f932752e5",
 "/": "bf42fd6dbf0ac4ab27a3268f932752e5",
-"main.dart.js": "827941049ca2035ba77af9380c72b76b",
+"main.dart.js": "d0c721d478067d996dc3aa066587760f",
 "manifest.json": "fc1f02858a436a1b7337049af6e95156",
 "version.json": "add70030698129a6afb2117a87bbf402"};
 // The application shell files that are downloaded before a service worker can
